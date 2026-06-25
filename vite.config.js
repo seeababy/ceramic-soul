@@ -1,23 +1,3 @@
-// import { dirname, resolve } from "node:path";
-// import { fileURLToPath } from "node:url";
-// import { defineConfig } from "vite";
-
-// const __dirname = dirname(fileURLToPath(import.meta.url));
-
-// export default defineConfig({
-// 	build: {
-// 		rollupOptions: {
-// 			input: {
-// 				main: resolve(__dirname, "index.html"),
-// 				catalog: resolve(__dirname, "catalog.html"),
-// 				blog: resolve(__dirname, "blog.html"),
-// 				about: resolve(__dirname, "about.html"),
-// 			},
-// 		},
-// 	},
-// });
-
-
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { defineConfig } from "vite";
@@ -25,7 +5,7 @@ import { defineConfig } from "vite";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  base: "./", 
+  base: '/ceramic-soul/', 
 
   build: {
     rollupOptions: {
